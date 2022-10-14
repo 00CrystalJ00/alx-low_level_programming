@@ -2,15 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main_program entry
- * Return: 0 if no error, non-0 if error
- */
+ * main - program entry
+ * Return: 0 if no error, non-zero if error
+ **/
 int main(void)
 {
 	int n;
 
 	srand(time(0));
-	n = rand()-RAND_MAX/2
+	n = rand() - RAND_MAX / 2;
 		if (n > 0)
 		{
 			printf("%d is positive\n", n);
