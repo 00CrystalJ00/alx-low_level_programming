@@ -1,8 +1,8 @@
 #include "main.h"
 
-/** 
- * _abs - prints the absolute value of an integer
- * @t: the integar to be printed
+/**
+ * _abs - computes the absolute value of an integar
+ * @t: the integar for computing
  * Return: the absolute value
  */
 int _abs(int t)
